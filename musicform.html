@@ -1,0 +1,76 @@
+<body>
+<h3>Prospective Student Form</h3>
+<form method="POST" action="contact2.php">
+<table>
+<tr>
+<td align="right">
+Name:
+</td>
+<td align="left">
+<input type="text" size="25" name="name" value="">
+</td>
+</tr>
+<tr>
+<td align="right">
+Email:
+</td><td align="left">
+<input type="text" size="25" name="email" value="">
+</td>
+</tr>
+<tr>
+<td align="right">
+Student Type:
+</td>
+<td align="left">
+<select name="whoami">
+<option value="" />Please choose. . .
+<option value="newstudent"/>My child is interested in beginning piano lessons.
+<option value="transfer" />My child has taken lessons before and is a transfer student.
+<option value="adult" />I want piano lessons for myself.
+<option value="groupclass" />My child is interested in your group music theory class.
+<option value="other" />I have a general question about your studio.
+</select>
+</td>
+</tr>
+<tr>
+<td align="right">
+Subject:
+</td>
+<td align="left">
+<input type="text" size="50" max="50" name="subject" value="">
+</td>
+</tr>
+<tr>
+<td align="right" valign="top">
+Message:
+</td>
+<td align="left">
+<textarea name="message" cols="50" rows="8">
+</textarea>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="left">
+How did you hear about us?
+<ul>
+<input type="radio" name="found" value="wordofmouth" />Word of Mouth<br/>
+<input type="radio" name="found" value="search" />Online Search<br/>
+<input type="radio" name="found" value="article" />Printed publication/article<br/>
+<input type="radio" name="found" value="website" />Online link/article<br/>
+<input type="radio" name="found" value="other" />Other
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="update1" checked="checked">I would like to be put on the waiting list.<br/>
+<input type="checkbox" name="update2">Please email me when you have any new classes or events.
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="SUBMIT" />
+</td></tr>
+</table>
+</form>
+</body>
